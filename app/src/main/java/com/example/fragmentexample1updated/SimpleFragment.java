@@ -13,8 +13,13 @@ import android.widget.TextView;
 
 public class SimpleFragment extends Fragment {
 
+
     public SimpleFragment() {
         // Required empty public constructor
+    }
+
+    public static SimpleFragment newInstance(){
+        return new SimpleFragment();
     }
 
     @Override
